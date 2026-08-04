@@ -1,0 +1,186 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	font-family: 'Open Sans', sans-serif;
+}
+.header{
+	height: 120px;
+	width: 100%;
+	background-color: #F4EEFF;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+	box-shadow: 3px 4px 10px #A6B1E1;
+	position: fixed;
+}
+.logo{
+	margin-top: -57px;
+}
+.logo img{
+	height: 250px;
+}
+.menu{
+	margin: 20px 10px;
+}
+.menu li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px;
+	position: relative;
+}
+.menu a{
+	color: #424874;
+	display: block;
+	padding: 10px 20px;
+	text-decoration: none;
+	letter-spacing: 2px;
+	font-weight: bold;
+}
+.menu a:hover{
+	color:#A6B1E1 ;
+	background-color: #424874 ;
+	transition: all .3s;
+}
+.menu ul{
+	margin: 0;
+	display: flex;
+	padding: 0;
+}
+.kutular{
+	display: flex;
+	margin-top: 250px;
+	margin-left: 10%;
+	margin-right: 10%;
+	flex-wrap: wrap;
+}
+.kutu{
+	height: 46%;
+	width: 30%;
+	float: left;
+	border: 5px solid  #A6B1E1;
+	margin: 10px;
+	border-radius: 10px;
+	background-color:#A6B1E1 ;
+}
+.sayfa{
+	height: 46%;
+	width: 30%;
+	float: left;
+	border: 5px solid  #A6B1E1;
+	margin: 10px;
+	border-radius: 10px;
+}
+
+.kutu img{
+	width: 100%;
+	border-radius: 5px;
+}
+.kutu:hover{
+	box-shadow: 0 0 2px 1px #424874;
+}
+.contact{
+	width: 50%;
+	margin-top: 100px;
+	background-color: #F4EEFF;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	height: 80%;
+	padding-bottom: 40px;
+	margin-left: 0.8%;
+}
+.baslik h4{
+	padding: 10px;
+	background-color:#424874 ;
+	color: #F4EEFF;
+	font-size: 20px;
+}
+.icerik{
+	padding-left: 10px;
+	padding-top: 10px;
+}
+.button1 {
+  background-color: white; 
+  color: #424874; 
+  border: 2px solid #F4EEFF;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #A6B1E1;
+  color: white;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+form{
+	margin-right: 15px;
+}
+.tarih{
+	box-shadow: inset 1px 0 0 0 white;
+	color: white;
+	padding-left: 15px;
+}
+.yazar_tarih{
+	text-align: center;
+	padding-top: 10px;
+}
+.button{
+	background-color:#A6B1E1 ;
+	color: white;
+	width:100%;
+	border:white;
+	height: 60px;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	padding-left: 15px;
+}
+.about{
+	background-color: #DCD6F7;
+	width: 40%;
+	padding: 55px 50px;
+	margin-left: 2.5%;
+	border-radius: 10px;
+	height: 50%;
+	margin-top: 100px;
+}
+.conteiner{
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.footer{
+	background-color: #424874;
+	width: 100%;
+	height: 100%;
+	padding-left: 570px;
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+.fa {
+  padding: 15px;
+  font-size: 30px;
+  width: 10%;
+  text-align: center;
+  text-decoration: none;
+  background-color:#F4EEFF;
+}
+.fa:hover {
+  opacity: 0.7;
+}
